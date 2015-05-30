@@ -1,0 +1,35 @@
+{
+    "name": "domanalyzer",
+    "version": "0.0.1",
+    "description": "Analizando el DOM like a sir",
+    "keywords": [
+        "dom",
+        "html",
+        "malicious",
+        "javascript"
+    ],
+    "maintainers": [
+        "Rubén Espadas <rubenespadas@gmail.com> (http://twitter/rubenespadas)"
+    ],
+    "license": "GNU 3.0",
+    "repository": "rubenespadas/domanalyzer",
+    "dependencies": {
+        "htmlparser2": "~3.8.2",
+        "jsdom": "~4.4.0",
+        "request": "~2.55.0",
+        "yargs": "~3.7.1",
+        "iz": "~0.7.1",
+        "glob": "~5.0.5",
+        "parse5": "~1.4.2",
+        "mmmagic": "~0.3.13"
+    },
+    "scripts": {
+        "pretest": "git submodule update --init --recursive",
+        "test": "node ./run.js",
+        "lint": "jshint lib/ && jshint test/"
+    },
+    "main": "./lib/domanalyzer",
+    "files": [
+        "lib/"
+    ]
+}

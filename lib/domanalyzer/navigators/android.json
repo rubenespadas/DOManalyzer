@@ -1,0 +1,22 @@
+{
+    "userAgent": "Mozilla/5.0 (Linux; Android 4.4.2; Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.99 Mobile Safari/537.36",
+    "screen": {
+        "width": 768,
+        "height": 1280
+    },
+    "ScriptEngineMinorVersion": 0,
+    "ScriptEngineMajorVersion": 0,
+    "ScriptEngineBuildVersion": 0,
+    "ScriptEngine": "KOT49H",
+    "cookieEnabled": true,
+    "onLine": true,
+    "appVersion": "",
+    "plataform": "Android 4.4",
+    "javascript": {
+        "enable": true
+    },
+    "language": "es-ES",
+    "appName": "Android 4.4",
+    "activeFlash": true,
+    "javaEnabled": true
+}

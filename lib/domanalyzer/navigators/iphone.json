@@ -1,0 +1,22 @@
+{
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safari/9537.53",
+    "screen": {
+        "width": 768,
+        "height": 1280
+    },
+    "ScriptEngineMinorVersion": 0,
+    "ScriptEngineMajorVersion": 0,
+    "ScriptEngineBuildVersion": 0,
+    "ScriptEngine": "0.0.0",
+    "cookieEnabled": true,
+    "onLine": true,
+    "appVersion": "",
+    "plataform": "iPhone OS 7_0",
+    "javascript": {
+        "enable": false
+    },
+    "language": "es-ES",
+    "appName": "Safari 7",
+    "activeFlash": false,
+    "javaEnabled": false
+}

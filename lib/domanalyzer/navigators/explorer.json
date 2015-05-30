@@ -1,0 +1,22 @@
+{
+    "userAgent": "Mozilla/4.0 (compatible, MSIE 6.0b, Windows NT 5.1)",
+    "screen": {
+        "width": 1024,
+        "height": 800
+    },
+    "ScriptEngineMinorVersion": 7,
+    "ScriptEngineMajorVersion": 5,
+    "ScriptEngineBuildVersion": 16599,
+    "ScriptEngine": "7.5.16599",
+    "cookieEnabled": true,
+    "onLine": true,
+    "appVersion": "4.0 (Windows)",
+    "plataform": "Win32",
+    "javascript": {
+        "enable": true
+    },
+    "language": "es-ES",
+    "appName": "Microsoft Internet Explorer 6.0b",
+    "activeFlash": true,
+    "javaEnabled": true
+}
