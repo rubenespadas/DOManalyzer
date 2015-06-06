@@ -1,4 +1,4 @@
 DOManalyzer.sublime-workspace
 DOManalyzer.sublime-project
 node_modules/
-repository/
+repository/*
