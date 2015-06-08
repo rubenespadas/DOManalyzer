@@ -11,7 +11,7 @@
     "cookieEnabled": true,
     "onLine": true,
     "appVersion": "",
-    "plataform": "Android 4.4",
+    "platform": "Android 4.4",
     "javascript": {
         "enable": true
     },

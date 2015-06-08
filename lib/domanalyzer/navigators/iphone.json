@@ -11,7 +11,7 @@
     "cookieEnabled": true,
     "onLine": true,
     "appVersion": "",
-    "plataform": "iPhone OS 7_0",
+    "platform": "iPhone OS 7_0",
     "javascript": {
         "enable": false
     },

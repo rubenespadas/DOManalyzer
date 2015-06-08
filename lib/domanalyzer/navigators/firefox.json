@@ -11,7 +11,7 @@
     "cookieEnabled": true,
     "onLine": true,
     "appVersion": "",
-    "plataform": "Win32",
+    "platform": "Win32",
     "javascript": {
         "enable": true
     },
