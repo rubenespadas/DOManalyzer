@@ -72,16 +72,24 @@ if (argv.list) {
     if(argv.nav=="all") {
         utils.getNavigatorsList(function(navigators) {
             if(navigators) {
-                domanalyzer.analyze(argv.url, argv.referer, argv.method, navigators, argv.samples, function(results){
-                    utils.save(argv.reports, results.urlsha1, results, true);
+                domanalyzer.analyze(argv.url, argv.referer, argv.method, navigators, argv.samples, function(e, results){
+                    if(e) {
+                        console.log(e);
+                    } else {
+                        utils.save(argv.reports, results.urlsha1, results, true);
+                    }
                 });
             } else {
                 console.log('Blank Navigator list')
             }
         });
     } else {
-        domanalyzer.analyze(argv.url, argv.referer, argv.method, [argv.nav], argv.samples, function(results){
-            utils.save(argv.reports, results.urlsha1, results, true);
+        domanalyzer.analyze(argv.url, argv.referer, argv.method, [argv.nav], argv.samples, function(e, results){
+            if(e) {
+                console.log(e);
+            } else {
+                utils.save(argv.reports, results.urlsha1, results, true);
+            }
         });
     }
 }
