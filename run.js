@@ -17,6 +17,11 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+if (process.getuid && process.getuid() === 0) {
+    console.log('Please, running DOManalyzer as an unprivileged user.');
+    process.exit(1);
+}
+
 global.__base = __dirname + '/';
 
 var argv = require('yargs')
