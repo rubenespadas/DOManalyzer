@@ -25,7 +25,7 @@ Analizando el DOM like a sir.
 
 ## NodeJS
 
-    NodeJS v0.12.2
+    NodeJS v5.5.0
 
 
 &copy; Copyright 2015 Rubén Espadas
