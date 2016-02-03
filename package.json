@@ -14,14 +14,14 @@
     "license": "GPL-3.0",
     "repository": "rubenespadas/domanalyzer",
     "dependencies": {
-        "htmlparser2": "~3.8.2",
-        "jsdom": "~4.4.0",
-        "request": "~2.55.0",
-        "yargs": "~3.7.1",
+        "htmlparser2": "~3.9.0",
+        "jsdom": "~8.0.2",
+        "request": "~2.67.0",
+        "yargs": "~3.32.0",
         "iz": "~0.7.1",
-        "glob": "~5.0.5",
-        "parse5": "~1.4.2",
-        "mmmagic": "~0.3.13"
+        "glob": "~6.0.4",
+        "parse5": "~2.1.5",
+        "mmmagic": "~0.4.1"
     },
     "scripts": {
         "pretest": "git submodule update --init --recursive",
